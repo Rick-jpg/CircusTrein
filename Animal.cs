@@ -11,6 +11,7 @@ namespace CircusTrein
         public AnimalType type { get; private set; }
 
         public AnimalSize size { get; private set; }
+        private float test;
 
         public Animal() { }
         public Animal(AnimalType type, AnimalSize size)
