@@ -9,7 +9,8 @@ namespace CircusTrein
         public enum AnimalType
         {
             Carnivore,
-            Herbivore
+            Herbivore,
+            Omnivore
         }
 
         public enum AnimalSize
