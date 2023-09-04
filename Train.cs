@@ -42,6 +42,7 @@ namespace CircusTrein
                     wagon.AddAnimal(animal);
                     wagons.Add(wagon);
                     animals.Remove(animal);
+                    //Check Animals
                 }
             }
         }
