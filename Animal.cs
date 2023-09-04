@@ -14,10 +14,11 @@ namespace CircusTrein
         private float test;
 
         public Animal() { }
-        public Animal(AnimalType type, AnimalSize size)
+        public Animal(AnimalType type, AnimalSize size, float test)
         {
             this.type = type;
             this.size = size;
+            this.test = test;
         }
         public override string ToString()
         {
